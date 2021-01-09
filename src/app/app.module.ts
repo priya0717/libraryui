@@ -8,12 +8,11 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { CustomMaterialModule } from './custom-material/custom-material.module';
 import { SharedModule } from './shared/shared.module';
-import { StudentprofileComponent } from './studentprofile/studentprofile.component';
 
 
 
 @NgModule({
-  declarations: [AppComponent, StudentprofileComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
